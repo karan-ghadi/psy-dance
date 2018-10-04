@@ -1,0 +1,175 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background: url(../images/wall.jpg) 50% 50%;
+    background-size: cover;
+}
+
+ul,
+li,
+ol {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0px;
+}
+
+footer {
+    background: url(../images/stage.png) no-repeat center center;
+    position: fixed;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    min-height: 350px;
+}
+
+.speakerL {
+    position: absolute;
+    left: 10%;
+    bottom: 250px;
+    z-index: 5;
+}
+
+.lightL {
+    position: absolute;
+    left: 20%;
+    top: -194px;
+    z-index: 999;
+}
+
+.lightR {
+    position: absolute;
+    right: 20%;
+    top: -194px;
+    z-index: 999;
+}
+
+.speakerR {
+    position: absolute;
+    right: 10%;
+    bottom: 250px;
+    z-index: 5;
+}
+
+.crowd {
+    position: absolute;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.crwd1 {
+    left: 10px;
+}
+
+.crwd2 {
+    left: 120px;
+}
+
+.crwd3 {
+    left: 240px;
+}
+
+.crwd4 {
+    left: 400px;
+}
+
+.crwd5 {
+    left: 550px;
+}
+
+.crwd6 {
+    left: 600px;
+}
+
+.crwd7 {
+    left: 700px;
+}
+
+.crwd8 {
+    left: 850px;
+}
+
+.crwd9 {
+    left: 1000px;
+}
+
+.crwd10 {
+    left: 1150px;
+}
+
+.crwd11 {
+    left: 1350px;
+}
+
+.crwd12 {
+    left: 1500px;
+}
+
+.crwd13 {
+    left: 1600px;
+}
+
+.crwd14 {
+    left: 1800px;
+}
+
+.psy {
+    background: url(../images/psy.png) no-repeat;
+    width: 225px;
+    height: 400px;
+    position: fixed;
+    left: 50%;
+    margin-left: -91px;
+    bottom: 170px;
+    z-index: 99;
+}
+
+.guitar-player {
+    position: fixed;
+    left: 20%;
+    bottom: 250px;
+    z-index: 9;
+    width: 220px;
+    display: block;
+}
+
+.drummer-player {
+    position: fixed;
+    right: 25%;
+    bottom: 230px;
+    z-index: 9;
+    width: 255px;
+    display: block;
+}
+
+.drummer-player2 {
+    position: fixed;
+    left: 40%;
+    bottom: 250px;
+    z-index: 9;
+    width: 255px;
+    display: block;
+}
+
+.guitar-player img,
+.drummer-player img,
+.drummer-player2 img {
+    width: 100%;
+}
